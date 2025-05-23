@@ -5,6 +5,7 @@
   margin: 0 auto;
   padding: 2rem;
   font-weight: normal;
+  height: 100vh;
 }
 
 a,
@@ -23,9 +24,12 @@ a,
 
 @media (min-width: 1024px) {
   body {
+    height: 100vh;
+
     display: flex;
-    place-items: center;
+    place-items: flex-start;
   }
 
-  #app {}
+  #app {
+  }
 }
